@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { scroller } from "react-scroll";
-import logo from "../assets/img/DevCorpsLogo.jpg";
+import logo from "../assets/img/DevCorpsLogo.png";
 function Header() {
     useEffect(() => {
         window.addEventListener("scroll", function () {
@@ -42,14 +42,14 @@ function Header() {
                         <small className="ms-4"><i className="fa fa-clock text-theme me-2"></i>9.00 am - 9.00 pm</small>
                     </div>
                     <div className="col-lg-6 px-5 text-end">
-                        <small><i className="fa fa-envelope text-theme me-2"></i>muskankewlani123@gmail.com</small>
-                        <small className="ms-4"><i className="fa fa-phone-alt text-theme me-2"></i>+91- 7849890124</small>
+                        <small><i className="fa fa-envelope text-theme me-2"></i>Sales@apptrixy.com</small>
+                        <small className="ms-4"><i className="fa fa-phone-alt text-theme me-2"></i>+91- 9625329717</small>
                     </div>
                 </div>
 
                 <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 fadeIn">
                     <Link to="/" className="navbar-brand ms-4 ms-lg-0">
-                        <img src={logo} className="img-fluid" width={100} alt="Low key It solutions Website development" />
+                        <img src={logo} className="img-fluid" width={150}  alt="Low key It solutions Website development" />
                     </Link>
                     <button type="button" className="navbar-toggler me-4" data-bs-toggle="offcanvas"
                         data-bs-target="#navbarCollapse">

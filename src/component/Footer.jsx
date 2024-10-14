@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from "../assets/img/DevCorpsLogo.jpg";
+import logo from "../assets/img/DevCorpsLogo.png";
 
 function Footer() {
     return (
@@ -32,10 +32,10 @@ function Footer() {
                         <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                             {/* <h4 className="text-white mb-4">Our Office</h4>
                             <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> */}
-                            <a target="_blank" href='https://wa.me/+917849890124' className="pb-1 text-white text-decoration-none"><p className='mb-0'>
-                                <i className="fa fa-phone-alt me-3"></i>+91- 7849890124</p></a>
-                            <a target="_blank" href="mailto:harshkhosla9945@gmail.com" className="mb-2 text-white text-decoration-none"><p className='pt-2'>
-                                <i className="fa fa-envelope me-3"></i>harshkhosla9945@gmail.com</p></a>
+                            <a target="_blank" href='https://wa.me/+919625329717' className="pb-1 text-white text-decoration-none"><p className='mb-0'>
+                                <i className="fa fa-phone-alt me-3"></i>+91- 9625329717</p></a>
+                            <a target="_blank" href="mailto:Sales@apptrixy.com" className="mb-2 text-white text-decoration-none"><p className='pt-2'>
+                                <i className="fa fa-envelope me-3"></i>Sales@apptrixy.com</p></a>
                             <div className="d-flex pt-2">
                                 <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                     className="fab fa-twitter"></i></a>
